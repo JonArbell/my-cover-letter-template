@@ -1,4 +1,4 @@
-<section class="relative h-[85vh] flex flex-col items-center justify-start">
+<section class="xxs:text-xs relative min-h-[500px] h-[85vh] flex flex-col items-center justify-start">
 
     <section
         [ngClass]="{
@@ -71,9 +71,9 @@
 </section>
 
 <!-- Button to Toggle Form -->
-<section class="print:hidden w-full flex items-center justify-center h-[15vh]">
+<section class="print:hidden w-full flex items-center justify-center min-h-[105px] h-[15vh]">
 
-    <button class="cursor-pointer font-semibold bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300" (click)="showHideButton()">
+    <button class="xxs:text-xs cursor-pointer font-semibold bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition-all duration-300" (click)="showHideButton()">
         {{isFormShow ? 'Hide Form' : 'Show Form'}}
     </button>
 
