@@ -4,9 +4,10 @@ This is a personal cover letter template built using Angular 19. It provides a s
 
 ## Features
 
-- **Dynamic Form:** Easily input and modify needed details.
-
+- **Optional Fields:** Fill in only the details you need; fields can be left blank.
+- **Form Toggle:** Show or hide the form with a button.
 - **Responsive Design:** Ensures optimal display across different devices.
+- **Easy Export:** Save or print the cover letter using Ctrl + P (desktop) or the browser’s print/share option (mobile).
 
 
 ## Usage
@@ -17,7 +18,7 @@ This is a personal cover letter template built using Angular 19. It provides a s
 
 - Preview the formatted cover letter before exporting.
 
-- Save or download the cover letter in PDF format.
+- Save or download the cover letter in PDF format using Ctrl + P (desktop) or the browser’s print/share option (mobile).
 
 
 ## Technologies Used
