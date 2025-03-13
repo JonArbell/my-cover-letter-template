@@ -5,7 +5,11 @@
   "projects": {
     "cover-letter": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "none"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -92,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ea13bd86-1c08-4047-9c67-83a637179443"
   }
 }
