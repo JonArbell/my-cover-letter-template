@@ -11,7 +11,7 @@ export class MainComponent {
 
   isFormShow = false;
 
-  hiringManagerName : string = `[Hiring Manager's Name]`;
+  hiringManagerName : string = `Hiring Manager`;
   companyName : string = '[Company Name]';
   companyAddress : string = '[Company Address]';
 
